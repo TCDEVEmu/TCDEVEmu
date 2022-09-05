@@ -120,5 +120,5 @@ jobs:
         repo_token: "${{ secrets.GITHUB_TOKEN }}"
         automatic_release_tag: "latest"
         prerelease: true
-        title: "Development Build(${{ steps.date.outputs.date }})"
+        title: "Beta Development Build(${{ steps.date.outputs.date }})"
         files: all_snapshots
